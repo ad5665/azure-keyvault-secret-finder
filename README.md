@@ -1,4 +1,4 @@
-# azure-keyvault-secret-finder
+# azure keyvault secret finder
 Loops through all subscriptions and keyvaults to help speed up locating a certain key
 
 Vaules are not saved locally, so when running the get parameter, `az keyvault secret show` is ran to fetch the vaule. 
